@@ -4,13 +4,30 @@
 
 👉 **[开始测试](https://user-A100.github.io/EATi)**
 
+---
+
+![EATi 预览](eati-preview.png)
+
 ## 这是什么
 
-仿照 MBTI 的饮食人格测试。纯前端计算，不上传任何数据。
+EATi（Eating Appetite Type Indicator）是开发 [THU Eat](https://github.com/user-A100/THU-EAT)（清华校园卡消费统计）时顺手做出来的一个性格测试。
+
+原本内嵌在 THU Eat 里，需要导入校园卡数据才能解锁。但测试本身挺好玩——不管是不是清华学生、有没有校园卡，都可以测。于是单独拆了出来，整理成一个 HTML 文件，**任何人都能用**。
+
+仿照 MBTI 的五维人格模型：果断性、秩序感、开放性、社交性、意志力。30 题答完，匹配 18 种基础人格 + 3 种隐藏人格。
+
+纯前端计算，不上传任何数据。双击 `index.html` 就能玩。
 
 ## 本地运行
 
-直接双击 `index.html`，浏览器打开即用。
+下载整个仓库，双击 `index.html` 即可。
+
+或者一行命令：
+
+```bash
+git clone https://github.com/user-A100/EATi.git
+cd EATi && open index.html
+```
 
 ## License
 
