@@ -18,16 +18,21 @@ EATi（Eating Appetite Type Indicator）是开发 [THU Eat](https://github.com/u
 
 纯前端计算，不上传任何数据。双击 `index.html` 就能玩。
 
-## 本地运行
+## 怎么用
 
-下载整个仓库，双击 `index.html` 即可。
+**🏠 推荐：直接点链接 → [https://user-A100.github.io/EATi](https://user-A100.github.io/EATi)**
 
-或者一行命令：
+啥都不用装，浏览器打开就能测。
+
+<details>
+<summary>或者下载到本地</summary>
 
 ```bash
 git clone https://github.com/user-A100/EATi.git
 cd EATi && open index.html
 ```
+
+</details>
 
 ## License
 
